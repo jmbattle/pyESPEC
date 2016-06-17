@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""ESPEC_tests.py: Simple test routine for pyUART wrapper functions
+"""ESPEC_tests.py: Simple test routine for pyESPEC library
 
 __author__ = "Jason M. Battle"
 __copyright__ = "Copyright 2016, Jason M. Battle"
@@ -60,4 +60,3 @@ if __name__ == '__main__':
     test.ProgramErase()
     test.SetModeOff()
     test.CloseChannel()
-    
