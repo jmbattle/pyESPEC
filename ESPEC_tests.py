@@ -60,3 +60,4 @@ if __name__ == '__main__':
     test.ProgramErase()
     test.SetModeOff()
     test.CloseChannel()
+    
