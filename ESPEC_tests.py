@@ -11,7 +11,7 @@ from ESPEC import SH241
 
 if __name__ == '__main__':
 
-    test = SH241()
+    test = SH241(address=1)
     test.OpenChannel()
     if test.GetMode() == 'OFF':
         test.SetPowerOn()
