@@ -5,7 +5,7 @@ A simple API for controlling [ESPEC] temperature/climate chambers. It is built o
 
 **NOTE:** pyUART and ft2dxx are requirements to use this module. The former expects the dll to be placed in `C:\Python27\Lib\site-packages\`. Please update as necessary should it be stored elsewhere.   
 
-**NOTE:** Tested with Python 2.7 on Windows 7 with the SH-241 temperature/humidity chamber. 
+**NOTE:** Tested with Python 2.7 on Windows 7 with the **SH-241** temperature/humidity chamber. 
 
 ## References
 [SH Series Temperature Chambers]
