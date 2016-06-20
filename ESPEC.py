@@ -12,8 +12,8 @@ from UART import UARTMaster
 
 class SH241():
 
-    def __init__(self):
-        self._address = 1
+    def __init__(self, address=1):
+        self._address = address
         self._instr = UARTMaster()
         self._instr.CreateDeviceInfoList()
         self._instr.GetDeviceInfoList()
